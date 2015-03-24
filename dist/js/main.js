@@ -22138,6 +22138,7 @@ var APP =
             )
         }
     });
+
 module.exports = APP;
 
 },{"./app-template":188,"./cart/app-cart":190,"./catalog/app-catalog":195,"./product/app-catalogdetail":199,"react":186,"react-router-component":9}],190:[function(require,module,exports){
@@ -22446,9 +22447,12 @@ module.exports = AppDispatcher;
 var APP = require('./components/app');
 var React = require('react');
 
+
 React.render(
     React.createElement(APP, null),
     document.getElementById('main'));
+
+
 
 },{"./components/app":189,"react":186}],203:[function(require,module,exports){
 /** @jsx React.DOM */
